@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./navbar.css">
+<link href="Lightbox/css/lightbox.css" rel="stylesheet" />
+<script src="Lightbox/js/lightbox-plus-jquery.js"></script>
+<title></title>
+</head>
+<body>
+<header>
+<h1 class="logo">Sally Rhee</h1>
+<ul class="nav">
+<li class="navlink"><a href="home.html">Home</a></li>
+<li class="navlink"><a href="gallery.html">Gallery</a></li> 
+<li class="navlink"><a href="#">About Me</a></li> 
+<li class="navlink"><a href="#">Contact</a></li> 
+</ul> 
+<div class="burger">
+<i class="fas fa-bars"></i>
+</div>
+</header>
+
+
+	<!-- Lightbox position fix -->
+	<script>
+		let w = window.innerHeight/2;
+		lightbox.option({
+		'resizeDuration': 0,
+		'imageFadeDuration': 0,
+		'positionFromTop': w,
+		'fadeDuration': 0,
+		'wrapAround': true
+		})
+	</script>
+
+<div class="container">
+    <!-- Circular Profile Image -->
+    <img src="Media/sally.jpeg" alt="Profile Picture" class="profile-image">
+
+    <!-- Bio Text -->
+    <p class="bio-text">
+        It's Celery Time.    
+    </p>
+</div>
+	<!-- partial -->
+<script src="Lightbox/js/lightbox.js"></script>
+
+<script src="./nav.js"></script>
+</body>
+</html>
